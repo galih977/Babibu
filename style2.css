@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+<time class='post-da'><data:post.date/></time>/* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
 */
@@ -4037,7 +4037,7 @@ iframe {
         margin: 0 0 8px 13px
     }
 
-    .mega-header-author .mega-header-inside .author-avatar .half-circle {
+    .mega-header-author .mega-header-inside {
         width: 100px;
         height: 54px
     }
@@ -4465,12 +4465,12 @@ body.category-sponsored .bsap-doubles,body.category-sponsored .jp-relatedposts,b
 
 .author-avatar .half-circle {
     position: absolute;
-    bottom: 0;
+    bottom: -1;
     left: 0;
     width: 80px;
     height: 56px;
     fill: none;
-    stroke: url(#orange-to-pink);
+    stroke: #f24a4a;
     stroke-width: 8;
     stroke-linecap: round;
     pointer-events: none
@@ -5123,7 +5123,7 @@ body.category-sponsored .bsap-doubles,body.category-sponsored .jp-relatedposts,b
     grid-area: auto
 }
 
-.CommentForm .comment-wrap .author-avatar .half-circle,.comment ul .comment-wrap .author-avatar .half-circle,.commentlist .comment-wrap .author-avatar .half-circle {
+.CommentForm .comment-wrap ,.comment ul .comment-wrap .author-avatar .half-circle,.commentlist .comment-wrap .author-avatar .half-circle {
     stroke: #7a7a8c
 }
 
