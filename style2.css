@@ -4493,7 +4493,8 @@ body.category-sponsored .bsap-doubles,body.category-sponsored .jp-relatedposts,b
 }
 
 .author-name-area {
-    grid-area: author
+    grid-area: author;
+line-height: 21.6px;
 }
 
 @media(max-width: 800px) {
