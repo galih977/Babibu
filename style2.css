@@ -1,7 +1,4 @@
-<time class='post-da'><data:post.date/></time>/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0-modified | 20110126
-   License: none (public domain)
-*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -377,7 +374,8 @@ a{
     text-decoration: none;
 }
 
-@charset "UTF-8";/*!Theme Name: CSS-Tricks v17
+@charset "UTF-8";
+/*!Theme Name: CSS-Tricks v17
 Theme URI: http://css-tricks.com/
 Description: The Theme for CSS-Tricks
 Author: Chris Coyier
@@ -4494,7 +4492,7 @@ body.category-sponsored .bsap-doubles,body.category-sponsored .jp-relatedposts,b
 
 .author-name-area {
     grid-area: author;
-line-height: 21.6px;
+    line-height: 21.6px;
 }
 
 @media(max-width: 800px) {
