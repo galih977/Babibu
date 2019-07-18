@@ -4463,7 +4463,7 @@ body.category-sponsored .bsap-doubles,body.category-sponsored .jp-relatedposts,b
 
 .author-avatar .half-circle {
     position: absolute;
-    bottom: -1;
+    bottom: -4;
     left: 0;
     width: 80px;
     height: 56px;
